@@ -1,4 +1,0 @@
-andrewnews
-==========
-
-HN clone
