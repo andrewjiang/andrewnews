@@ -2,6 +2,9 @@
 	<header class="navbar">
 		<div class="navbar-inner">
 			<a class="brand" href="/">Andrew News</a>
+			<ul class="nav">
+				{{#if currentUser}}<li><a href="{{postSubmitPath}}">Submit Post</a></li>{{/if}}
+			</ul>
 			<ul class="nav pull-right">
 				<li>{{loginButtons}}</li>
 			</ul>
